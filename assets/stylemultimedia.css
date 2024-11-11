@@ -1,0 +1,137 @@
+img{
+    height: 40%;
+    width: 40%;
+}
+.menu{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: #FE8592;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 0px 0px 8px 1px #e7e7e7;
+}
+body{
+    margin: 0;
+}
+.opciones {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: fuenteLogin5;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.opciones-derecha {
+    display: flex;
+    margin-left: auto; 
+    align-items: center;
+}
+
+.categorias, .multimedia, .amigos, .perfil, .iniciarsesion{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.categorias, .principal {
+    height: 40px;
+    width: 120px;
+    display: flex;            
+    justify-content: center;    
+    align-items: center;       
+    text-align: center;        
+    border-radius: 50px;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+    transform: scale(1);
+        
+    }
+    
+.categorias:hover, .amigos:hover, .perfil:hover, .principal:hover, .iniciarsesion:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    }
+    
+    
+.amigos, .perfil {
+    height: 40px;
+    width: 100px;
+    display: flex;            
+    justify-content: center;    
+    align-items: center;       
+    text-align: center;        
+    border-radius: 50px;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+    transform: scale(1);
+}
+    
+.iniciarsesion{
+    height: 25px;
+    width: 25px;
+    display: flex;            
+    justify-content: center;    
+    align-items: center;       
+    text-align: center;   
+    border-radius: 50px;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+    transform: scale(1);
+    margin-right: 80px;
+}
+
+@font-face{
+    font-family: fuenteLogin3;
+    src: url(fuentes/Momcake-Bold.otf);
+}
+@font-face{
+    font-family: fuenteLogin2;
+    src: url(fuentes/Momcake-Thin.otf);
+}
+@font-face{
+    font-family: fuenteLogin1;
+    src: url(fuentes/DarlingGirlDemoRegular.ttf);
+}
+@font-face{
+    font-family: fuenteLogin4;
+    src: url(fuentes/PlusJakartaSans-Italic-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: fuenteLogin5;
+    src: url(fuentes/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+.fau{
+    display: flex;
+    margin: 40%;
+    align-self: center;
+    height: 300px;
+    width: 300px;
+}
+.bandejaderecha {
+    display: flex;
+    background-color: #ffffff;
+    width: 98%;
+    height: 94%;
+    flex-direction: row;
+    margin: 1%;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0px 0px 8px 1px #e7e7e7;
+    border-radius: 8px;
+}
+.bandeja {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 536px;
+    width: 100%;
+    flex-direction: row;
+
+}
+a {
+    text-decoration: none;
+}

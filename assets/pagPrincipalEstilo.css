@@ -1,0 +1,71 @@
+body{
+    background-image: url(images/fondoOttseal.png);
+  
+	background-attachment: contain;
+	background-size: cover;
+    display:flex;
+    justify-content: center;
+    opacity:0;
+    animation: fadeIn 5s forwards;
+}
+@keyframes fadeIn {
+    to {opacity :1;}
+}
+
+@font-face {
+    font-family:fuenteLogin03;
+    src: url(fonts/DarlingGirlDemoRegular.ttf);
+}
+@font-face {
+    font-family: fuenteLogin;
+    src: url(fonts/Momcake-Thin.otf);
+}
+@font-face {
+    font-family: fuenteLogin04;
+    src: url(fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+.titulo{
+    margin-top:10px;
+    justify-content: center;
+}
+.ottseal{
+    font-family:fuenteLogin03;
+    font-size: 100px;
+    display:flex;
+    justify-content: center;
+    text-shadow: 5px 3px 5px black;
+}
+.slogan{
+    font-size: 45px;
+    font-family: fuenteLogin;
+    margin-top: -35px;
+    opacity: 0;
+    animation: fadeIn 7s forwards;
+}
+.Botones{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    margin-top: 50px;
+    opacity: 0;
+    animation: fadeIn 7s forwards;
+}
+.Registrarse, .IniciarSesion{
+    background-color:#E69BA5;
+    box-shadow: 3px 2px 5px #bb7480;
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    font-family: fuenteLogin04;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+
+}
+a{
+    text-decoration:none;
+    color:black
+}

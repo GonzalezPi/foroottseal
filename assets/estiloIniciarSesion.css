@@ -1,0 +1,161 @@
+body{
+    background-image: url(images/fondoIniciarSesion.png);
+    
+    display:flex;
+    justify-content: center;
+    opacity: 0;
+    animation: fadeIn 5s forwards;
+}
+@keyframes fadeIn {
+    to {opacity :1;}
+}
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:#F1647B;
+    box-shadow: 0px 0px 100px #000000;
+    width: 500px;
+    height: 530px;
+    margin-top:70px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.tituloOttseal{
+    font-family:fuenteLogin03;
+    position:absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+    
+}
+.logoOttseal{
+    position:absolute;
+    margin-left:-10px;
+    margin-top: 5px;
+   
+}
+.textosInicio{
+    position: absolute;
+    display:flex;
+    flex-direction: row;
+    margin-top:62px;
+   
+    
+}
+    
+    
+
+
+.textoInicio01{
+font-family: fuenteLogin01;
+margin-top: 7px;
+font-size: 42px;
+
+
+}
+.textoInicio02{
+    font-family: fuenteLogin02;
+    
+    
+    font-size: 56px;
+}
+
+.subConteiner{
+    width: 500px;
+    height:390px;
+    background-color: #D6D2D1;
+    position: absolute;
+    margin-top: -20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #b8273f;
+    
+}
+form{
+    position:absolute;
+    margin-top: 20px;
+}
+.inputs{
+    margin-top:140px;
+    
+}
+@font-face {
+    font-family:fuenteLogin03;
+    src: url(fonts/DarlingGirlDemoRegular.ttf);
+}
+
+@font-face {
+    font-family:fuenteLogin01;
+    src: url(fonts/Momcake-Thin.otf);
+}
+
+@font-face {
+    font-family:fuenteLogin02;
+    src: url(fonts/Momcake-Bold.otf);
+}
+.usuarioInput, #contraInput {
+    width: 350px;
+    position: absolute;
+    height: 50px;
+    border: none;
+    border-bottom: solid 1px black;
+    background-color: #D6D2D1;
+    
+}
+
+#contraInput{
+    margin-left: 75px;
+    margin-top: 75px;
+}
+.usuarioInput{
+    margin-left: 55px;
+    margin-top: 10px;
+}
+::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1; 
+   
+}
+
+.clave, .usuario{
+    margin-left:20px;
+    margin-top: 70px;
+}
+
+
+.correoIcon {
+    position:absolute;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.claveIcon {
+    position:absolute;
+    margin-left: 33px;
+    margin-top: 90px;
+}
+.logInInput {
+    border: none;
+    border-radius:3px;
+    background: linear-gradient(to right, #F1647B, #ffaac6);
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 175px;
+    width: 400px;
+    height: 50px;
+    font-family: fuenteLogin01;
+}
+
+.usuarioIcon{
+    position:absolute;
+    margin-top: -110px;
+    margin-left: 200px;
+}
+#eyeIcon {
+    position: absolute;
+    margin-top:90px;
+    margin-left: 400px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+

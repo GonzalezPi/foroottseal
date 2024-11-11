@@ -1,0 +1,111 @@
+body{
+    background-color:#F1647B;
+    opacity: 0;
+    animation: fadeIn 5s forwards;
+}
+@keyframes fadeIn {
+    to {opacity :1;}
+}
+
+.login-container{
+    display:flex;
+    width: 900px;
+    height: 580px;
+    flex-direction: row;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 60px;
+    box-shadow: 5px 5px 2px #ec415d;
+    justify-content:center;
+}
+
+.der-img{
+    background-image: URL(images/imgLogin.jpeg);
+    background-attachment: contain;
+    background-size: cover;
+    width: 400px;
+    height: 580px;
+
+}
+@font-face {
+    font-family:fuenteLogin03;
+    src: url(fonts/DarlingGirlDemoRegular.ttf);
+}
+@font-face {
+    font-family: fuenteLogin02;
+    src: url(fonts/Momcake-Bold.otf);
+}
+b{
+    font-size:80px;
+    font-family: fuenteLogin02;
+}
+@font-face {
+    font-family: fuenteLogin;
+    src: url(fonts/Momcake-Thin.otf);
+}
+@font-face {
+    font-family: fuenteLogin04;
+    src: url(fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+.izq-blanca{
+    background-color: whitesmoke;
+    width: 380px;
+    height: 440px;
+    /* font-family: fuenteLogin;
+    font-size: 60px; */
+    padding: 70px;
+}
+.logoTexto{
+    font-family: fuenteLogin03;
+    font-size: 15px;
+    margin-top: -45px;
+    position:absolute;
+    margin-left:35px;
+}
+.logoImg{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -33px;
+    width: 70px; 
+    height: 70px;
+}
+.hola{
+    font-family: fuenteLogin;
+    font-size: 60px;
+}
+.hola, b{
+    margin:-14px;
+}
+input{
+    width: 300px;
+    height: 50px;
+    border: 3px solid #000000;
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 5px;
+    font-family: fuentelogin04;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.usuarioInput{
+    margin-top:5px;
+}
+.hola, .b{
+    margin-top:-10px;
+}
+.eye-icon {
+    position: absolute;
+    margin-top:-57px;
+    margin-left: 270px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.enviarSign{
+    position:absolute;
+    
+    width: 310px;
+    border:none;
+    background-color:#ec415d;
+}
