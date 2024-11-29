@@ -59,10 +59,16 @@ try {
                         <div class="categoria">
                             <label for="categoria">Categoría</label>
                             <select name="post_categoria" required>
-                                <option value="musica"><?php echo $array['categoria_temas']; ?></option>
-                                
+                                <?php foreach ($posts as $categoria): ?>
+                                    <?php if (isset($categoria['categoria_id']) && isset($categoria['categoria_temas'])): ?>
+                                        <option value="<?php echo htmlspecialchars($categoria['categoria_id'], ENT_QUOTES, 'UTF-8'); ?>">
+                                            <?php echo htmlspecialchars($categoria['categoria_temas'], ENT_QUOTES, 'UTF-8'); ?>
+                                        </option>
+                                    <?php endif; ?>
+                                <?php endforeach; ?>
                             </select>
                         </div>
+
                         <div class="enviar">
                             <input type="submit" value="Subir">
                         </div>
@@ -72,7 +78,7 @@ try {
         </div>
         <div class="bandejaizquierda">
             <input class="buscador" type="text" name="Buscar" placeholder="Buscar...">
-            <div class="temas">
+            <div class="mas">
                 <h4>Temas populares</h4>
             </div>
             <ul>
@@ -82,9 +88,9 @@ try {
                 <li>Fotografía, cine y diseño gráfico</li>
                 <li>Exposiciones y museos</li>
             </ul>
-            <div class="mas">
+                <div class="mas">
                 <h4>Noticias recientes</h4>
-            </div>
+                </div>
             <ul>
                 <a href="bienvenida.html" class="bienvenida"><li>Bienvenidos a Ottseal!</li></a>
             </ul>

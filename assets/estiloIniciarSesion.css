@@ -93,6 +93,11 @@ form{
     font-family:fuenteLogin02;
     src: url(fonts/Momcake-Bold.otf);
 }
+
+@font-face {
+    font-family: fuenteLogin05;
+    src: url(fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
 .usuarioInput, #contraInput {
     width: 350px;
     position: absolute;
@@ -158,4 +163,3 @@ form{
     width: 30px;
     height: 30px;
 }
-

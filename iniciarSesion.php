@@ -35,7 +35,7 @@ if (!empty($_POST['correoLoginHTML']) && !empty($_POST['contraLoginHTML'])) {
 <body>
 
 
-    
+
     <div class="conteiner">
     <?php if (!empty($message)) : ?>
             <?= $message ?>
@@ -77,10 +77,24 @@ if (!empty($_POST['correoLoginHTML']) && !empty($_POST['contraLoginHTML'])) {
                 </div>
                 
         </div>
-       
+        
     </div>
+    <div class="textoABAJO">¿No tienes una cuenta? <a href="registro.php">‎ Crea una.</a></div>
     
-
+    <style>
+    @font-face {
+        font-family: fuenteLogin05;
+        src: url("assets/fonts/PlusJakartaSans-VariableFont_wght.ttf");
+    }   
+    .textoABAJO{
+        font-family: fuenteLogin05;
+        position: absolute;
+        
+       
+            
+    }
+          
+ </style>
 <script type="text/javascript" src="funcionOjoLogIn.js">
 </script>
 </body>

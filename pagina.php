@@ -38,7 +38,7 @@ try {
                     <?php if (isset($_SESSION['usuario_nombre'])): ?>
                         <a class="bienvenido" href="#"><h3>Bienvenido, <?php echo $_SESSION['usuario_nombre']; ?>!</h3></a>
                     <?php else: ?>
-                        <a class="iniciarsesion" href="login.php"><h3>Iniciar sesión</h3></a>
+                        <a class="iniciarsesion" href="iniciarSesion.php"><h3>Iniciar sesión</h3></a>
                     <?php endif; ?>
                 </div>
             </div>
